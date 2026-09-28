@@ -101,7 +101,7 @@ export NODE_OPTIONS="--require=<repo>/ohpm_local/bin/fs_hook.js"
 
 ## AI 开发声明
 
-本项目使用了 AI Agent 工具协助开发。声明继承自上游 OronBox；本仓库的增量部分（HarmonyOS 适配与 ArkTS 桥接层）同样由 AI Agent 协助完成。
+本项目使用了 AI Agent 工具模型DeepSeek4.1协助开发
 
 ## 鸣谢
 
