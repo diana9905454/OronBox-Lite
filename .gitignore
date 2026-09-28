@@ -1,0 +1,89 @@
+# ===== 密钥 / 签名材料（最高优先级，误传不可撤销）=====
+*.p12
+*.jks
+*.keystore
+*.key
+*.pem
+*.cer
+*.p7b
+*.csr
+*.pfx
+*.mobileprovision
+*.keystore
+# 本项目的发布证书与 Profile 目录
+ohos/signature/
+# Android 签名口令
+android/key.properties
+android/local.properties
+# 华为开发者本地配置
+.ohos/
+
+# ===== Flutter =====
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+# 注意：pubspec.lock 是应用项目，必须提交，不要忽略
+
+# ===== Android =====
+android/.gradle/
+android/.idea/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.aab
+# 注意：android/gradle/wrapper/gradle-wrapper.jar 必须提交（gradlew 依赖），
+#       虽然它匹配 *.jar，但下面这条 negation 把它救回来
+!android/gradle/wrapper/gradle-wrapper.jar
+!**/libs/*.jar
+
+# ===== Windows 桌面 =====
+windows/flutter/ephemeral/
+windows/runner/Debug/
+windows/runner/Release/
+windows/runner/x64/
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.obj
+*.lib
+*.exe
+
+# ===== HarmonyOS / DevEco / hvigor =====
+ohos/oh_modules/
+ohos/build/
+ohos/entry/build/
+ohos/entry/oh_modules/
+ohos/entry/.preview/
+ohos/.hvigor/
+ohos/.cxx/
+.hvigor/
+*.har
+!**/flutter_embedding_*.har
+*.hap
+*.hsp
+*.app
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ===== 系统 / 杂项 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.stackdump
+
+# ===== 内部文档（不上传）=====
+HANDOFF.md
+build_log.txt

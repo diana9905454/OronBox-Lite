@@ -1,0 +1,44 @@
+OronBox Lite
+Copyright (C) 2026 OronBox contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+来源与派生说明 (Derivation Notice)
+================================================================================
+
+OronBox Lite 是 OronBox 的派生作品，按 AGPL-3.0 第 5 条发布。
+
+  上游项目: OronBox
+  仓库:     https://github.com/zxor-org/OronBox
+  协议:     GNU Affero General Public License v3.0 (AGPL-3.0)
+  版权:     Copyright (C) 2026 OronBox contributors
+
+OronBox 上游所依赖并包含的第三方组件同样以 AGPL-3.0 授权，
+其完整协议文本与版权声明随本仓库一并保留于 assets/licenses/ 下：
+
+  - AstroBox / astrobox_ng_*  (AGPL-3.0)  Copyright (C) AstralSight Studios
+  - GadgetBridge               (AGPL-3.0)  Copyright (C) Gadgetbridge contributors
+
+另有一个以 Apache-2.0 授权的内嵌包：
+
+  - packages/segmented_list    (Apache-2.0)  Copyright (c) 2024 ErBWs
+                                            Modifications (c) 2026 OronBox contributors
+    详见 packages/segmented_list/LICENSE 与 NOTICE
+
+--------------------------------------------------------------------------------
+AGPL-3.0 特别提示（网络交互条款）
+--------------------------------------------------------------------------------
+由于本程序以 AGPL-3.0 授权，若你修改本程序并通过网络向用户提供服务，
+你有义务向这些用户提供对应修改版本的完整源代码。详见 LICENSE 第 13 条。

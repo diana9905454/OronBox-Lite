@@ -1,0 +1,45 @@
+# 统一换行符，避免 Windows 提交后其他平台全线 diff
+* text=auto
+
+# 源码用 LF
+*.dart   text eol=lf
+*.ets    text eol=lf
+*.ts     text eol=lf
+*.js     text eol=lf
+*.json   text eol=lf
+*.json5  text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.md     text eol=lf
+
+# Windows 脚本必须 CRLF
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+*.ps1    text eol=crlf
+
+# Shell 必须 LF
+*.sh     text eol=lf
+
+# 二进制，禁止行尾转换
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.svg    text eol=lf
+*.ttf    binary
+*.otf    binary
+*.woff   binary
+*.woff2  binary
+*.so     binary
+*.jar    binary
+*.har    binary
+*.p12    binary
+*.jks    binary
+*.keystore binary
+
+# 让 GitHub 语言统计正确（不把生成代码算进去）
+lib/src/protocols/generated/** linguist-generated=true
+*.pb.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+*.g.dart linguist-generated=true

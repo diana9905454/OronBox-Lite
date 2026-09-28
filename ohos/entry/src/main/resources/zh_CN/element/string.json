@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "OronBox 主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "OronBox 主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "OronBox"
+    },
+    {
+      "name": "perm_ble",
+      "value": "用于搜索并连接附近的蓝牙穿戴设备"
+    },
+    {
+      "name": "perm_loc",
+      "value": "蓝牙扫描需要位置权限，用于发现附近的穿戴设备"
+    },
+    {
+      "name": "perm_net",
+      "value": "用于应用运行环境调试，本应用不联网、不上传任何数据"
+    }
+  ]
+}
